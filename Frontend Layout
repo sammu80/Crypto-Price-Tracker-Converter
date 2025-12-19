@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoLive - Realtime Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 CryptoLive Tracker</h1>
+        <p>Real-time cryptocurrency prices in USD</p>
+        
+        <div id="price-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Coin</th>
+                        <th>Price (USD)</th>
+                        <th>24h Change</th>
+                    </tr>
+                </thead>
+                <tbody id="crypto-table-body">
+                    </tbody>
+            </table>
+        </div>
+        <button onclick="fetchPrices()">Refresh Prices</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
